@@ -1,13 +1,23 @@
 GET http://localhost:3000/subscribers
 
-###
-GET http://localhost:3000/subscribers/1556
+### Get Data By ID
+GET http://localhost:3000/subscribers/623aa78235202d1b6eb2518c
 
-###
-POST http://localhost:3000/subscribers
+### Insert Data
+POST http://localhost:3000/subscribers/
 Content-Type: application/json
 
 {
-    "name": "Amazing Person",
+    "name": "CHOK",
     "subscribedToChannel": "Web Dev Simplified"
 }
+
+### Update Data
+PATCH http://localhost:3000/subscribers/623aa78235202d1b6eb2518c
+Content-Type: application/json
+
+{
+    "name": "CHOKZZZZ"
+}
+### Deleted Data
+DELETE http://localhost:3000/subscribers/623aa68135202d1b6eb25178
