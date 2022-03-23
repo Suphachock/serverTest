@@ -4,12 +4,12 @@ GET http://localhost:3000/subscribers
 GET http://localhost:3000/subscribers/623aa78235202d1b6eb2518c
 
 ### Insert Data
-POST http://localhost:3000/subscribers/
+POST http://servertest.app.ruk-com.cloud/subscribers
 Content-Type: application/json
 
 {
-    "name": "CHOK",
-    "subscribedToChannel": "Web Dev Simplified"
+    "name": "Heroes",
+    "subscribedToChannel": "CKKK"
 }
 
 ### Update Data
